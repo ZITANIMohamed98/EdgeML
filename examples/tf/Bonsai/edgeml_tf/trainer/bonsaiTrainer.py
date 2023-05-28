@@ -2,7 +2,7 @@
 # Licensed under the MIT license.
 
 from __future__ import print_function
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import edgeml_tf.utils as utils
 import numpy as np
 import os

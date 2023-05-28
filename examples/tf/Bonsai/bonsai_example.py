@@ -2,7 +2,7 @@
 # Licensed under the MIT license.
 
 import helpermethods
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 import sys
 from edgeml_tf.trainer.bonsaiTrainer import BonsaiTrainer

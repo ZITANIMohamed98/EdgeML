@@ -94,7 +94,7 @@ def main():
     del tflite_model
 
     # Prediction on an example input using tflite model we just saved
-    x, y = Xtrain[0], Ytrain[0]
+    x, y = Xtrain[3], Ytrain[3]
     x = x.astype(np.float32)
     x = np.expand_dims( x, 0 )
 
